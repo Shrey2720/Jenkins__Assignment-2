@@ -4,28 +4,35 @@ pipeline {
     stages {
         stage('Stage 1') {
             steps {
-                echo 'Hello World'
+                echo 'Add Booking'
             }
             
         }
          stage('Stage 2') {
             steps {
-                echo 'Hello World'
+                echo 'Delete Booking'
             }
             
         }
          stage('Stage 3') {
             steps {
-                echo 'Hello World'
+                echo 'Get Booking'
             }
             
         }
          stage('Stage 4') {
             steps {
-                echo 'Hello World'
+                echo 'Partially Update Booking'
             }
             
         }
+ stage('Stage 5') {
+            steps {
+                echo 'Update Booking'
+            }
+            
+        }
+
         
     }
 }
