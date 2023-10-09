@@ -1,0 +1,9 @@
+Pojo\UpdateData$BookingDates.class
+TestPages\BaseTest2.class
+Pages\Add.class
+Pages\GetBooking.class
+TestPages\BaseTest.class
+Pages\Delete.class
+Pages\Update.class
+Pages\PartialUpdate.class
+Pojo\UpdateData.class
